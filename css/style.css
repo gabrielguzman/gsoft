@@ -132,6 +132,11 @@ nav {
         color: #FFE194;
         margin: 30px;
     }
+
+    .footer{
+        background-color: #ff497c; 
+        height: 16vh;
+    }
 }
 
 @media (min-width: 768px) { 
@@ -153,6 +158,10 @@ nav {
     .pic{
         transform: rotate(0deg);
     }
+    .footer{
+        background-color: #ff497c; 
+        height: 16vh;
+    }
 }
     
 @media (min-width: 992px) { 
@@ -166,6 +175,11 @@ nav {
         height: auto;
         margin-left: 0px
     }
+    .footer{
+        background-color: #ff497c; 
+        height: 16vh;
+    }
+
 }
 
 
