@@ -1,0 +1,202 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+}
+
+nav {
+  background-color: #556b99;
+  color: white;
+}
+
+nav .navbar-brand {
+  font-weight: 900;
+  color: #9ceb84;
+  font-size: 1.4rem;
+}
+
+nav .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 1.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#lista-navegacion a {
+  color: #faf8ef;
+}
+
+#lista-navegacion a:hover {
+  color: gold;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+/* logo + into pagina index */
+.intro {
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #F7F6F2;
+}
+
+.logo {
+  -webkit-animation-name: mi_efecto;
+          animation-name: mi_efecto;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+@-webkit-keyframes mi_efecto {
+  0% {
+    color: 0px;
+  }
+  0.2s {
+    width: 300px;
+  }
+  25% {
+    width: 400px;
+  }
+  50% {
+    width: 500px;
+  }
+  75% {
+    width: 700px;
+  }
+  100% {
+    widht: 100%;
+  }
+}
+
+@keyframes mi_efecto {
+  0% {
+    color: 0px;
+  }
+  0.2s {
+    width: 300px;
+  }
+  25% {
+    width: 400px;
+  }
+  50% {
+    width: 500px;
+  }
+  75% {
+    width: 700px;
+  }
+  100% {
+    widht: 100%;
+  }
+}
+
+.contenido-sup {
+  background-color: #343c3f !important;
+}
+
+.custom-row {
+  height: 83vh;
+}
+
+#row-primario {
+  height: 83vh;
+}
+
+.footer {
+  background-color: #ff497c;
+  height: 25vh;
+}
+
+/*formato titulos paginas*/
+.titulo {
+  font-weight: bold;
+}
+
+/*para portfolio*/
+.card .shadow-sm {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+/*contacto*/
+.info {
+  text-align: center;
+  color: #fa401f;
+}
+
+.info p {
+  font-size: 18px;
+  margin-top: 18px;
+  font-style: oblique;
+  color: black;
+}
+
+.contact {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-form label {
+  font-weight: 900;
+}
+
+/* imagen avatar nosotros*/
+.pic {
+  width: 150px;
+  height: 150px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+@media (min-width: 576px) {
+  .intro {
+    font-size: 15px;
+    text-align: center;
+    color: #FFE194;
+    margin: 30px;
+  }
+  .footer {
+    background-color: #ff497c;
+    height: 20vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .intro {
+    font-size: 17px;
+    color: #FFE194;
+    margin: 5px;
+  }
+  .logo {
+    height: 260px;
+    margin-left: 118px;
+  }
+  .info {
+    text-align: left;
+  }
+  .pic {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  .footer {
+    background-color: #ff497c;
+    height: 23vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .intro {
+    font-size: 20px;
+    color: #FFB319;
+  }
+  .logo {
+    max-width: 100%;
+    height: auto;
+    margin-left: 0px;
+  }
+  .footer {
+    background-color: #ff497c;
+    height: 23vh;
+  }
+}
+/*# sourceMappingURL=mystyle.css.map */

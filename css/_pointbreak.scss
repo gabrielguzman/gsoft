@@ -1,0 +1,60 @@
+
+@media (min-width: 576px) {
+    .intro{
+        font-size: 15px;
+        text-align: center;
+        color: #FFE194;
+        margin: 30px;
+    }
+
+    .footer{
+        background-color: #ff497c; 
+        height: 20vh;
+    }
+}
+
+@media (min-width: 768px) { 
+    .intro{
+        font-size: 17px;
+        color: #FFE194;
+        margin: 5px;
+    }
+
+    .logo{
+        height: 260px;
+        margin-left: 118px;
+    }
+    
+    .info{
+        text-align: left;
+    }
+
+    .pic{
+        transform: rotate(0deg);
+    }
+    .footer{
+        background-color: #ff497c; 
+        height: 23vh;
+    }
+}
+    
+@media (min-width: 992px) { 
+    .intro{
+        font-size: 20px;
+        color: #FFB319;    
+    }
+    
+    .logo {
+        max-width: 100%;
+        height: auto;
+        margin-left: 0px
+    }
+    .footer{
+        background-color: #ff497c; 
+        height: 23vh;
+    }
+
+}
+
+
+
