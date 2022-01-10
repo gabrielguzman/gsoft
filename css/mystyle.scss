@@ -23,13 +23,12 @@ nav{
 
 #lista-navegacion a{
     color: rgb(250, 248, 239);
-  
-}
-
-#lista-navegacion a:hover{
-    color: gold;
-    font-weight: bolder;
-    text-decoration: underline;
+    
+    &:hover{
+        color: gold;
+        font-weight: bolder;
+        text-decoration: underline;
+    }
 }
 
 /* logo + into pagina index */
