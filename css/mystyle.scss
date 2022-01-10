@@ -1,3 +1,24 @@
+/*variable de prueba*/
+$color-nav:#556b99;
+
+/*MAPS*/
+$colores_generales:(
+   principal: #0A3143,
+   complementerario: #A9A9A9,
+   secundario: #ff3b3f,
+   oscuro: #E6621f,
+   claro: #ffffff, 
+);
+
+@each $nombre,$color in $colores_generales{
+  .col--#{$nombre}{
+      color: $color;
+      font-style: italic;
+      font-size: large;
+  }  
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -6,7 +27,7 @@
 } 
 
 nav{
-    background-color: #556b99;
+    background-color: $color-nav;
     color: white;
 
     .navbar-brand{

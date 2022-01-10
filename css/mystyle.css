@@ -1,3 +1,35 @@
+/*variable de prueba*/
+/*MAPS*/
+.col--principal {
+  color: #0A3143;
+  font-style: italic;
+  font-size: large;
+}
+
+.col--complementerario {
+  color: #A9A9A9;
+  font-style: italic;
+  font-size: large;
+}
+
+.col--secundario {
+  color: #ff3b3f;
+  font-style: italic;
+  font-size: large;
+}
+
+.col--oscuro {
+  color: #E6621f;
+  font-style: italic;
+  font-size: large;
+}
+
+.col--claro {
+  color: #ffffff;
+  font-style: italic;
+  font-size: large;
+}
+
 * {
   margin: 0px;
   padding: 0px;
