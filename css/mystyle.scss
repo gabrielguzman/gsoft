@@ -18,6 +18,10 @@ $colores_generales:(
   }  
 }
 
+@mixin color-invertido {
+    background-color: #111;
+    color: #eee;
+}
 
 *{
     margin: 0px;
@@ -88,7 +92,7 @@ nav{
 }
 
 .footer{
-    background-color: #ff497c; 
+    @include color-invertido; 
     height: 25vh;
 }
 
