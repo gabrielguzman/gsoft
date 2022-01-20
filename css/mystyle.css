@@ -44,7 +44,7 @@ nav {
 
 nav .navbar-brand {
   font-weight: 900;
-  color: #fdb0ba;
+  color: #fafafa;
   font-size: 1.4rem;
 }
 
@@ -54,12 +54,18 @@ nav .custom-toggler .navbar-toggler-icon {
 
 nav #lista-navegacion a {
   color: #faf8ef;
+  font-size: large;
 }
 
 nav #lista-navegacion a:hover {
   color: gold;
   font-weight: bolder;
+  font-size: larger;
   text-decoration: underline;
+}
+
+#bread {
+  background-color: ivory;
 }
 
 /* logo + into pagina index */
@@ -68,55 +74,6 @@ nav #lista-navegacion a:hover {
   font-weight: bold;
   text-transform: uppercase;
   color: #F7F6F2;
-}
-
-.logo {
-  -webkit-animation-name: mi_efecto;
-          animation-name: mi_efecto;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-}
-
-@-webkit-keyframes mi_efecto {
-  0% {
-    color: 0px;
-  }
-  0.2s {
-    width: 300px;
-  }
-  25% {
-    width: 400px;
-  }
-  50% {
-    width: 500px;
-  }
-  75% {
-    width: 700px;
-  }
-  100% {
-    widht: 100%;
-  }
-}
-
-@keyframes mi_efecto {
-  0% {
-    color: 0px;
-  }
-  0.2s {
-    width: 300px;
-  }
-  25% {
-    width: 400px;
-  }
-  50% {
-    width: 500px;
-  }
-  75% {
-    width: 700px;
-  }
-  100% {
-    widht: 100%;
-  }
 }
 
 .contenido-sup {
@@ -129,6 +86,43 @@ nav #lista-navegacion a:hover {
 
 #row-primario {
   height: 83vh;
+}
+
+.outro {
+  position: relative;
+  float: inline-start;
+  background: #343c3f;
+  color: #fff;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+}
+
+.outro span {
+  position: absolute;
+  right: 0;
+  width: 0;
+  border-left: 2px solid white;
+  background-color: #343c3f;
+  -webkit-animation: escribir 2s steps(20) infinite alternate;
+          animation: escribir 2s steps(20) infinite alternate;
+}
+
+@-webkit-keyframes escribir {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
+
+@keyframes escribir {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
 }
 
 .footer {
@@ -185,8 +179,10 @@ nav #lista-navegacion a:hover {
   .intro {
     font-size: 15px;
     text-align: center;
-    color: #FFE194;
     margin: 30px;
+  }
+  .outro {
+    font-size: 20px;
   }
   .footer {
     background-color: #ff497c;
@@ -197,8 +193,10 @@ nav #lista-navegacion a:hover {
 @media (min-width: 768px) {
   .intro {
     font-size: 17px;
-    color: #FFE194;
     margin: 5px;
+  }
+  .outro {
+    font-size: 25px;
   }
   .logo {
     height: 260px;
@@ -212,7 +210,7 @@ nav #lista-navegacion a:hover {
             transform: rotate(0deg);
   }
   .footer {
-    background-color: #ff497c;
+    background-color: #ff95b3;
     height: 23vh;
   }
 }
@@ -220,7 +218,9 @@ nav #lista-navegacion a:hover {
 @media (min-width: 992px) {
   .intro {
     font-size: 20px;
-    color: #FFB319;
+  }
+  .outro {
+    font-size: 25px;
   }
   .logo {
     max-width: 100%;

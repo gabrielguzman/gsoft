@@ -11,7 +11,7 @@ nav{
 
     .navbar-brand{
         font-weight:900;
-        color:#fdb0ba;
+        color:#fafafa;
         font-size: 1.4rem;
     }
 
@@ -21,16 +21,20 @@ nav{
 
     #lista-navegacion a{
         color: rgb(250, 248, 239);
+        font-size: large;
         
         &:hover{
             color: gold;
             font-weight: bolder;
+            font-size: larger;
             text-decoration: underline;
         }
     }
-
 }
 
+#bread{
+    background-color: ivory;
+}
 /* logo + into pagina index */
 .intro{
     font-size: 13px;
@@ -39,20 +43,6 @@ nav{
     color: #F7F6F2;
 }
 
-.logo{
-    animation-name: mi_efecto;
-    animation-duration: 4s;
-}
-
-
-@keyframes mi_efecto {
-    0%{ color: 0px; }
-    0.2s{ width:300px ;}
-    25%{ width: 400px;}
-    50%{ width: 500px;}
-    75%{ width: 700px;}
-    100%{ widht: 100%;}
- }
 
  .contenido-sup{
     background-color: #343c3f !important;
@@ -64,6 +54,28 @@ nav{
 
 #row-primario{
     height: 83vh;
+}
+.outro{
+    position: relative;
+	float:inline-start;
+	background: #343c3f ;
+	color: #fff;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    
+    span {
+        position:absolute;
+        right:0;
+        width:0;
+        border-left: 2px solid rgb(255, 255, 255);
+        background-color: #343c3f;
+        animation: escribir 2s steps(20) infinite alternate;
+    }
+
+    @keyframes escribir {
+        from { width: 100% }
+        to { width:0 }
+    }
 }
 
 .footer{

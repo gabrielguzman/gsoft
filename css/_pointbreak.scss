@@ -3,8 +3,11 @@
     .intro{
         font-size: 15px;
         text-align: center;
-        color: #FFE194;
         margin: 30px;
+    }
+
+    .outro{
+        font-size: 20px;
     }
 
     .footer{
@@ -16,10 +19,13 @@
 @media (min-width: 768px) { 
     .intro{
         font-size: 17px;
-        color: #FFE194;
         margin: 5px;
     }
 
+    .outro{
+        font-size: 25px;
+    }
+    
     .logo{
         height: 260px;
         margin-left: 118px;
@@ -33,7 +39,7 @@
         transform: rotate(0deg);
     }
     .footer{
-        background-color: #ff497c; 
+        background-color: #ff95b3; 
         height: 23vh;
     }
 }
@@ -41,7 +47,10 @@
 @media (min-width: 992px) { 
     .intro{
         font-size: 20px;
-        color: #FFB319;    
+    }
+
+    .outro{
+        font-size: 25px;
     }
     
     .logo {
