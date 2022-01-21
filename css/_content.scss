@@ -43,18 +43,11 @@ nav{
     color: #F7F6F2;
 }
 
-
- .contenido-sup{
+.contenido-sup{
     background-color: #343c3f !important;
 }
 
-.custom-row{
-    height: 83vh;
-}
 
-#row-primario{
-    height: 83vh;
-}
 .outro{
     position: relative;
 	float:inline-start;
@@ -80,12 +73,74 @@ nav{
 
 .footer{
     @include color-invertido; 
-    height: 25vh;
-}
-
+    color:white;
+    text-align: center;
+    .links{
+        ul {
+            list-style-type: none;
+            
+        }
+        li a{
+        color: white;
+        transition: color .2s;
+            &:hover{
+                text-decoration:none;
+                color:#4180CB;
+            }
+      }
+    }
+    .acerca-nosotros{
+        i{font-size: 25px;}
+            a{
+                color:white;
+                transition: color .2s;
+                &:hover{color:#4180CB}
+            }
+    } 
+    .ubicacion{
+      i{
+          font-size: 18px;
+        }
+    }
+    .copyright p{
+        border-top:1px solid rgba(255,255,255,.1);
+        text-align: center;
+    } 
+  }
 /*formato titulos paginas*/
 .titulo{
     font-weight: bold;
+}
+
+.texto-cuerpo{
+    font-family: 'Raleway', sans-serif;
+}
+
+/*para servicios*/
+.how-section1{
+    margin-top:-15%;
+    padding: 10%;
+    h4{
+        color: #ffa500;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .subheading{
+        color: #3931af;
+        font-size: 20px;
+    }
+
+    .row{
+        margin-top: 10%;
+    }
+}
+
+.how-img 
+{
+    text-align: center;
+    img{
+        width: 40%;
+    }
 }
 
 /*para portfolio*/

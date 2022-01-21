@@ -1,9 +1,11 @@
 
 @media (min-width: 576px) {
-    .intro{
-        font-size: 15px;
-        text-align: center;
-        margin: 30px;
+    .how-section1{
+        h4{
+            color: #ffa500;
+            font-weight: bold;
+            font-size: 25px;
+        }
     }
 
     .outro{
@@ -12,23 +14,20 @@
 
     .footer{
         background-color: #ff497c; 
-        height: 20vh;
     }
 }
 
 @media (min-width: 768px) { 
-    .intro{
-        font-size: 17px;
-        margin: 5px;
+    .how-section1{
+        h4{
+            color: #ffa500;
+            font-weight: bold;
+            font-size: 28px;
+        }
     }
 
     .outro{
         font-size: 25px;
-    }
-    
-    .logo{
-        height: 260px;
-        margin-left: 118px;
     }
     
     .info{
@@ -39,16 +38,20 @@
         transform: rotate(0deg);
     }
     .footer{
-        background-color: #ff95b3; 
-        height: 23vh;
+        background-color: #ff497c;
+       
     }
 }
     
-@media (min-width: 992px) { 
-    .intro{
-        font-size: 20px;
+@media (min-width: 992px) {
+    .how-section1{
+        h4{
+            color: #ffa500;
+            font-weight: bold;
+            font-size: 30px;
+        }
     }
-
+    
     .outro{
         font-size: 25px;
     }
@@ -60,7 +63,6 @@
     }
     .footer{
         background-color: #ff497c; 
-        height: 23vh;
     }
 
 }
