@@ -69,13 +69,6 @@ nav #lista-navegacion a:hover {
 }
 
 /* logo + into pagina index */
-.intro {
-  font-size: 13px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #F7F6F2;
-}
-
 .contenido-sup {
   background-color: #343c3f !important;
 }
