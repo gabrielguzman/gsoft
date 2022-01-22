@@ -175,14 +175,14 @@ nav #lista-navegacion a:hover {
           transform: rotate(-90deg);
 }
 
-/*propiedades - Servicios*/
+/*propiedades - Servicios - Index*/
 .caracteristicas {
   margin-top: -15%;
   padding: 10%;
 }
 
 .caracteristicas h4 {
-  color: #ffa500;
+  color: #ff8800;
   font-weight: bold;
   font-size: 20px;
 }
@@ -236,7 +236,7 @@ nav #lista-navegacion a:hover {
 }
 
 @media (min-width: 576px) {
-  .how-section1 h4 {
+  .caracteristicas h4 {
     color: #ffa500;
     font-weight: bold;
     font-size: 25px;
@@ -250,7 +250,7 @@ nav #lista-navegacion a:hover {
 }
 
 @media (min-width: 768px) {
-  .how-section1 h4 {
+  .caracteristicas h4 {
     color: #ffa500;
     font-weight: bold;
     font-size: 28px;
@@ -271,7 +271,7 @@ nav #lista-navegacion a:hover {
 }
 
 @media (min-width: 992px) {
-  .how-section1 h4 {
+  .caracteristicas h4 {
     color: #ffa500;
     font-weight: bold;
     font-size: 30px;
