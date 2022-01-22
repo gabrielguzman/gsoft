@@ -71,14 +71,14 @@ nav #lista-navegacion a:hover {
 
 /* logo + intro pagina - index */
 .contenido-sup {
-  background-color: #343c3f !important;
+  background-color: #000000 !important;
 }
 
 /*texto maquina escribir - index*/
 .outro {
   position: relative;
   float: inline-start;
-  background: #343c3f;
+  background: #000000;
   color: #fff;
   text-align: center;
   font-family: 'Fredoka One', cursive;
@@ -90,7 +90,7 @@ nav #lista-navegacion a:hover {
   right: 0;
   width: 0;
   border-left: 2px solid white;
-  background-color: #343c3f;
+  background-color: #000000;
   -webkit-animation: escribir 2s steps(20) infinite alternate;
           animation: escribir 2s steps(20) infinite alternate;
 }
