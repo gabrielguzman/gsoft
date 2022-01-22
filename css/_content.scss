@@ -5,6 +5,7 @@
     font-weight: lighter;
 } 
 
+/*Navbar*/
 nav{
     background-color: $color-nav;
     color: white;
@@ -35,13 +36,13 @@ nav{
 #bread{
     background-color: ivory;
 }
-/* logo + into pagina index */
+/* logo + intro pagina - index */
 
 .contenido-sup{
     background-color: #343c3f !important;
 }
 
-
+/*texto maquina escribir - index*/
 .outro{
     position: relative;
 	float:inline-start;
@@ -65,6 +66,7 @@ nav{
     }
 }
 
+/*footer*/
 .footer{
     @include color-invertido; 
     color:white;
@@ -100,7 +102,8 @@ nav{
         border-top:1px solid rgba(255,255,255,.1);
         text-align: center;
     } 
-  }
+}
+
 /*formato titulos paginas*/
 .titulo{
     font-weight: bold;
@@ -110,8 +113,15 @@ nav{
     font-family: 'Raleway', sans-serif;
 }
 
-/*para servicios*/
-.how-section1{
+/* imagen avatar - Nosotros*/
+.pic{
+    width: 150px;
+    height: 150px;
+    transform: rotate(-90deg);
+}
+
+/*propiedades - Servicios*/
+.caracteristicas{
     margin-top:-15%;
     padding: 10%;
     h4{
@@ -127,23 +137,23 @@ nav{
     .row{
         margin-top: 10%;
     }
-}
 
-.how-img 
-{
-    text-align: center;
-    img{
+    .how-img 
+    {
+        text-align: center;
+        img{
         width: 40%;
+        }
     }
 }
 
-/*para portfolio*/
+/*propiedades -Portfolio*/
 .card .shadow-sm{
     transition: all 2s;
     transform: rotate(180deg);
 }
 
-/*contacto*/
+/*propiedades Contacto*/
 .info{
     text-align: center;
     color: rgb(250, 64, 31);
@@ -164,9 +174,3 @@ nav{
     font-weight:900;
 }
 
-/* imagen avatar nosotros*/
-.pic{
-    width: 150px;
-    height: 150px;
-    transform: rotate(-90deg);
-}
