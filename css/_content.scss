@@ -71,11 +71,9 @@ nav{
 .footer{
     @include color-invertido; 
     color:white;
-    text-align: center;
     .links{
         ul {
             list-style-type: none;
-            
         }
         li a{
         color: white;
